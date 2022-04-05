@@ -1,3 +1,27 @@
+<title>Searx Redirector</title>
+<style>
+    body{
+        font-family: arial;
+    }
+</style>
 <h1>Searx Redirector Tool</h1>
-<link title="localhost:4000" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml"/>
+<p>Forwards your search to a random <a href="https://searx.space">Searx</a> instance.</p>
+<link title="riverside.rocks/search/" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml"/>
 <h3>Adding to Firefox</h3>
+<ol>
+    <li>Right click on the URL bar</li>
+    <li>Select the add option at the bottom of the menu</li>
+    <li>Open settings</li>
+    <li>Scroll to search engines</li>
+    <li>Select Searx redirector as your default search engine</li>
+</ol>
+<h3>Adding to Chrome</h3>
+<ol>
+    <li>Right click on the URL bar</li>
+    <li>Click manage search engines</li>
+    <li>Click add</li>
+    <li>Set the name to SearxRedirector</li>
+    <li>Leave keyword blank</li>
+    <li>Set url to "https://THISINSTANCEURL/?q=%s"</li>
+    <li>Leave last box blank</li>
+</ol>

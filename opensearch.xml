@@ -4,5 +4,5 @@
    <Description>A simple tool to forward Searx searches to a random instance</Description>
    <Tags>search</Tags>
    <Url type="text/html" method="GET" 
-        template="http://localhost:4000/?q={searchTerms}"/>
+        template="https://riverside.rocks/search/?q={searchTerms}"/>
  </OpenSearchDescription>
