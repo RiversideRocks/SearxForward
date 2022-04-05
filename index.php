@@ -9,7 +9,7 @@
 */
 function search($q){
     $working = [];
-    $instances = json_decode(file_get_contents("instances.json"), true);
+    $instances = json_decode(file_get_contents("https://searx.space/data/instances.json"), true);
     //print_r($instances);
     $n = 0;
     foreach($instances as $instance)
